@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: cdoc-author
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 106.13.235.81:8848
